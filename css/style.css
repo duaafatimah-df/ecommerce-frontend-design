@@ -681,13 +681,13 @@ background-color: white;
 .main-footer {
     width: 100%;
     background: #FFFFFF;
-    margin-top: 40px; /* Space from the content above */
+    margin-top: 40px; 
     border-top: 1px solid #E3E8EE;
 }
 
 .footer-container {
-    max-width: 1180px; /* Same as your hero/deals width */
-    height: 250px; /* Main content height */
+    max-width: 1180px; 
+    height: 250px; 
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -720,7 +720,6 @@ background-color: white;
     color: #0D6EFD;
 }
 
-/* Brand Section (Column 1) */
 .brand-info {
     width: 280px;
 }
@@ -745,7 +744,7 @@ background-color: white;
 .social-icons img {
     width: 30px;
     height: 30px;
-    filter: grayscale(1); /* Matches the design icons */
+    filter: grayscale(1); 
     opacity: 0.6;
 }
 
@@ -764,7 +763,7 @@ background-color: white;
 /* FOOTER BOTTOM BAR */
 .footer-bottom {
     width: 100%;
-    height: 74px; /* Total height = 250 + 74 = 324px total */
+    height: 74px; 
     background: #EFF2F4;
     display: flex;
     justify-content: center;
@@ -802,21 +801,21 @@ background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 32px; /* Perfect circle size */
+    width: 32px; 
     height: 32px;
-    background-color: #BDC4CD; /* The grey background from your reference */
-    border-radius: 50%; /* Makes it perfectly round */
+    background-color: #BDC4CD; 
+    border-radius: 50%; 
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
 .social-icons a i {
-    color: #FFFFFF; /* White icon inside the grey circle */
+    color: #FFFFFF; 
     font-size: 16px;
 }
 
 .social-icons a:hover {
-    background-color: #0D6EFD; /* Changes to brand blue on hover */
+    background-color: #0D6EFD; 
 }
 
 .social-icons a:hover i {
@@ -1566,8 +1565,8 @@ body {
 .container1 {
     max-width: 1180px;
     width: 100%;
-    margin: 40px auto 50px auto; /* 40px margin-top karega topbar ke masle ko fix */
-    padding: 0 15px; /* Taa ke choti screen pe border na kate */
+    margin: 40px auto 50px auto; 
+    padding: 0 15px; 
 }
 
 /* --- Header --- */
@@ -1584,12 +1583,12 @@ body {
 .main-content {
     display: flex;
     gap: 20px; 
-    align-items: flex-start; /* Fix: Box apni asal height pe rahenge, stretch nahi honge */
+    align-items: flex-start; 
 }
 
 /* --- Left Side: Cart Items --- */
 .cart-section {
-    flex: 1; /* Fix: Bachi hui sari jagah properly cover karega, display cut nahi hoga */
+    flex: 1; 
     background: #FFFFFF;
     border: 1px solid #E0E0E0;
     border-radius: 6px;
@@ -1598,7 +1597,7 @@ body {
 .cart-item {
     display: flex;
     justify-content: space-between;
-    padding: 20px; /* Fix: width ki jagah padding use ki hai takay cut na ho */
+    padding: 20px; 
     border-bottom: 1px solid #E0E0E0;
 }
 
@@ -1666,7 +1665,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    min-width: 80px; /* Ensure price side doesn't squish */
+    min-width: 80px;
 }
 
 .item-price {
@@ -1876,7 +1875,7 @@ body {
 }
 
 .saved-card {
-    flex: 1; /* Fix: Choti screens k liye better spread */
+    flex: 1; 
     display: flex;
     flex-direction: column;
     gap: 10px;
