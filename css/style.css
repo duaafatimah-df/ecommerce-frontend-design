@@ -107,7 +107,6 @@ body {
     font-size: 12px;
 }
 
-/* SECONDARY NAV (56px height) */
 .secondary-nav {
     width: 100%;
     height: 56px;
@@ -1564,8 +1563,7 @@ body {
     color: #1C1C1C;
 }
 
-/* Fix: Container ki max-width use ki hai aur top margin kam kar diya hai */
-.container {
+.container1 {
     max-width: 1180px;
     width: 100%;
     margin: 40px auto 50px auto; /* 40px margin-top karega topbar ke masle ko fix */
