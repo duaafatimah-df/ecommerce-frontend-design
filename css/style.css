@@ -2,6 +2,9 @@ body {
   margin: 0;
   font-family: Arial;
   background-color: rgb(245, 245, 245); 
+  display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 * {
@@ -23,6 +26,9 @@ body {
     display: block; 
     background: #FFFFFF;
     border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
 }
 
 .main-header {
@@ -597,6 +603,8 @@ background-color: white;
   width: 100%;
   height: 120px;
   object-fit: cover;
+  opacity: 1 !important; 
+  filter: none !important;
 }
 
 .service-card p {
@@ -681,7 +689,7 @@ background-color: white;
 .main-footer {
     width: 100%;
     background: #FFFFFF;
-    margin-top: 40px; 
+    margin-top: auto; 
     border-top: 1px solid #E3E8EE;
 }
 
@@ -1527,7 +1535,19 @@ height: 405px;
   background: linear-gradient(90deg, #237CFF 0%, #005ADE 100%);
   color: white;
 }
+.discount-banner1 {
+  width: 1153px;
+  height: 130px;
+  margin: 20px auto;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
 
+  background: linear-gradient(90deg, #237CFF 0%, #005ADE 100%);
+  color: white; 
+}
 /* TEXT */
 .banner-text h2 {
   margin: 0;
@@ -1549,17 +1569,21 @@ height: 405px;
   border-radius: 6px;
   cursor: pointer;
 }
+.discount-banner1 button {
+  background: #FF9017;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body {
-    font-family: 'Inter', sans-serif;
-    background-color: #F8F9FA;
-    color: #1C1C1C;
-}
+
 
 .container1 {
     max-width: 1180px;
